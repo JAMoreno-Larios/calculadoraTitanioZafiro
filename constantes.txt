@@ -1,0 +1,17 @@
+L1 1.0
+L2 1.35
+L 10.0e-3
+n0 1.7598
+n2 3.0e-20
+nPump 1.7715
+kth 1.3e-5
+chi 0.6 
+Cp 775.0 
+rho 3990.0 
+P_pump 8.0 
+P_laser 100.0e3
+dn_dv 1e-6
+lambda0 810.0e-9
+lambdaPump 535.0e-9
+f1 50.0e-3 
+f2 50.0e-3 
