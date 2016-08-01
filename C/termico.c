@@ -578,7 +578,6 @@ ajusteTemperaturaCristal ** matrizAjusteCristal(spotsPump * spots, matriz * epsi
             matrizVectores[i]=vectorAjusteCristal(spots->qOutTan[i],spots->qOutSag[i], alpha, lambdaIn, nLin, \
                             Power, chi, L, kth, Cp, rho, dn_dT, ancho, alto, iteraciones, pasos, umbral, lambda_relax, N, termico);
             CtoCppQProgressBar_setValue(bar,i+1);
-            CtoCppQProgressBar_repaint(bar);
         }
         return matrizVectores;
     }

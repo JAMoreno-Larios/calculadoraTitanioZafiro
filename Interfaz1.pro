@@ -23,7 +23,8 @@ SOURCES += main.cpp\
     C/acoplamiento.c \
     C/termico.c \
     ctocppqprogressbar.cpp \
-    parser.cpp
+    parser.cpp \
+    worker.cpp
 
 HEADERS  += interfaz1.h \
     C/error_iteraciones.h \
@@ -35,7 +36,8 @@ HEADERS  += interfaz1.h \
     C/acoplamiento.h \
     C/termico.h \
     ctocppqprogressbar.h \
-    parser.h
+    parser.h \
+    worker.h
 
 FORMS    += \
     interfaz1.ui \
