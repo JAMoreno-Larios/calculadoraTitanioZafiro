@@ -24,7 +24,8 @@ SOURCES += main.cpp\
     C/termico.c \
     ctocppqprogressbar.cpp \
     parser.cpp \
-    worker.cpp
+    worker.cpp \
+    salidatexto.cpp
 
 HEADERS  += interfaz1.h \
     C/error_iteraciones.h \
@@ -37,11 +38,14 @@ HEADERS  += interfaz1.h \
     C/termico.h \
     ctocppqprogressbar.h \
     parser.h \
-    worker.h
+    worker.h \
+    salidatexto.h
 
 FORMS    += \
     interfaz1.ui \
-    opcionesLaser.ui
+    opcionesLaser.ui \
+    salidatexto.ui
 
-RESOURCES +=
+RESOURCES += \
+    recursos.qrc
 #CONFIG += c++11

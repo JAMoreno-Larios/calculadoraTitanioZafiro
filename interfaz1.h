@@ -6,6 +6,7 @@
 #include "opcionesLaser.h"
 #include "parser.h"
 #include "calculo.h"
+#include "salidatexto.h"
 
 using std::string;
 
@@ -45,8 +46,15 @@ private slots:
 
     void on_actionAcerca_de_triggered();
 
+    void on_mapaCW_toggled(bool checked);
+
+    void on_actionVer_diagrama_triggered();
+
+    void on_initCalculloCW_clicked();
+
 private:
     parser *parsePtr;
+    salidaTexto *cajaTexto;
     Ui::interfaz1 *ui;
     calculo *noLineal;
     bool verificaEpsilon(double epsilon1Min, double epsilon1Max, double epsilon1Step, double epsilon2Min, double epsilon2Max, double epsilon2Step);
@@ -55,7 +63,8 @@ private:
     char* RutaEM2CW=NULL;
     char* RutaEM1ML=NULL;
     char* RutaEM2ML=NULL;
-    char* RutaIteraciones=NULL;
+    char* RutaIteracionesEM1=NULL;
+    char* RutaIteracionesEM2=NULL;
     char* RutaIterMax=NULL;
     bool EM1CW;
     bool EM2CW;

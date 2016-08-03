@@ -1,0 +1,4 @@
+En este directorio se guardarán íconos y otros para usarse en la
+interfaz.
+
+Iconos - Adwaita
